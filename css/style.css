@@ -1,0 +1,40 @@
+body {
+	background-color: #c9c9c9;
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	position: fixed;
+	background-color: #3d3d3d;
+	font-family: arial;
+	font-size: 18px;
+}
+.nav {
+	float: right;
+	padding:15px;
+}
+ul li {
+	display:inline-block;
+	margin-right: 50px;
+	list-style: none;
+}
+ul li a {
+	text-decoration: none;
+	padding: 25px 50px;
+	color: white;
+}
+.logo {
+	float:left;
+	color: white;
+	font-size: 25px;
+	padding: 25px 50px;
+}
+ul li:hover {
+	transform: scale(1.1);
+}
+.ban {
+	font-size: 150px;
+}
